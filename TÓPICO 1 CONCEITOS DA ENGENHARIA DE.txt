@@ -1,0 +1,88 @@
+TÓPICO 1: CONCEITOS DA ENGENHARIA DE SOFTWARE
+ 
+
+em engenharia de software visamos um projeto de qualidade com o menor custo possível, e no menor tempo possível (evitar perda de tempo em planejando e retrabalho)
+
+
+Camadas  da Eng. de Software:
+1a camada: Identificar as necessidades dos clientes
+2a camada: Oque devemos fazer? Quais serão as Atividades? Como gerenciar e monitorar o projeto à partir das informações anteriores.
+3a camada: Métodos, como iremos fazer as atividades(2a camada)? Método ágil ou tradicional? 
+4a camada: Automação, quanto mais automatizado o projeto de  Eng. de Software mais ganhamos tempo no desenvolvimento geral do projeto.
+
+
+TÓPICOS ÉTICA DA ENGENHARIA DE SOFTWARE:
+
+1o Confidencialidade: Durante o desenvolvimento de um projeto temos acesso à dados sensíveis e pessoais muitas vezes, é necessário 
+
+2o Competência: Temos que acietar projetos de acordo com nossas habilidades.
+
+3o Direitos de Propriedade Intelectual: Não podemos pantentear um projeto/produto requisitado, pago ou contratado por um cliente. À não ser que seja uma parceria que não vise lucro das partes.
+
+4o Mau uso do Computador: O cliente quando contrata o prestador de serviço espera que o equipamento fornecido seja de uso exclusivo pro desenvolvimento do projeto, e não para acessar conteúdos que não sejam relevantes pro projeto
+
+
+Um projeto de sofwtare é um conjunto de atividades: 
+1o Comunicação:  atividade relacionada com o cliente, onde são levantadas as necessidades dos clientes, identificação dos "stakeholders" do software (partes interessadas como usuários que irão utilizar o software na empresa contratante, gestores, diretores que irão gerir estes usuários e conferir se a produtividade, lucro ou os indicativos em questão foram atingidos após a implementação do projeto) , é importante documentar as necessidades das partes envolvidas pra que elas sejam supridas durante e após o desenvolvimento.
+
+2o Planejamento: Definir as atividades de desenvolvimento. Estimar o tempo que será gasto em cada uma das etapas do projeto. Estimar custos de produção e desenvolvimento. Alocação da equipe para o desencolvimento. Após todas as informações necessárias serem obtidas podemos elaborar o Cronograma ou KANBAN, utilizado em projetos ágeis.
+
+3o Modelagem:Vamos analisar o software e vamos elaborar vários modelos/diagramas para verificar o funcionamento de alguns elementos, que são eles Interações: Como os stakeholders irão interagir com este software; Estrutura interna do Software: Indentificar as classes e elaborar um diagrama para verificar a estrutura interna do software; Especificar a Arquitetura do Softwares: A representação das classes em componentes ou conteiners, um exemplo de uma arquitetura é cliente servidor.
+
+nota: Hoje a maioria das arquitetura estão em cloud, ou seja, hoje a questão da infraestrutura já não é tão relevante pros desenvolvimentos dos projetos de engenharia de software
+
+4o Construção: Nessa etapa focamos na Programação; Testes, são eles Testes unutários, realizados pelo próprio programador; Testes de Integração, que ; Teste End to End, que testa o sistema de ponta a ponta, que vai desde o acesso à plataforma, navegação no catalogo, seleção dos produtos, fase de pagamento e finalização de compra (esse teste é o mais caro de todos, e por isso pode ser pouco requisitado pelo contratante à depender da finalidade do projeto). Hoje já existem diversos softwares que auxiliam nestes testes, então muitas vezes podem ser reutilizados no desenvolvimento.
+
+5o Entrega: Testes de aceitação, o cliente verifica as funcionalidades e se elas corresponderam as expectativas levantadas; Termo de Aceitação e Encerramento, para evitar que o projeto seja prolongado.
+
+
+Este processo é chamado de "Genérico", porque à depender da finalidade e necessidades do cliente podem ser utilizadas outras técnicas, todos os tipos de Software abaixo podem utilizar um método genérico, mas as técnicas necessárias para o seu desenvolvimento podem variar muito
+
+Software de Aplicação: Quando somos contratados para desenvolver um produto pra um cliente, atendendo as regras de negócio.
+
+Software de Engenharia:
+
+Software Embarcado: Combinação entre Software e hardwares
+
+Software Para linha de Produtos: Escolha[
+
+Software de aplicação web: Caracteristicas de interação, interface amigavel.
+
+Software de Inteligência Artificial: Foco no treinamento da IA
+
+
+
+À partir dos processos genéricos iremos estudar MODELOS DE PROCESSO DE SOFTWARE: Cliclo de vida, ou como estas atividades estão relacionadas. iremos estudar os 3 modelos mais utilizados
+
+1o Modelo Cascata: 
+  Também conhecido como modelo tradicional, tipo de modelo sequencial, para dar seguimento à próxima atividade a anterior deve ser concluída. Hoje o mercado tem um certo receio de utilizar este método por conta de algum problemas como a Pouca interação com o cliente, que causa uma Demora para identificar problemas, o que leva à retrabalho, que gera gastos excessivos de custos e tempo. 
+
+FASES: Comuniação (entrevista ao cliente, levantamento de requisitos), Planejamento (listar atividades, levantar custos, gasto de tempo, equipe, cronograma, em torno de 5 meses), Modelagem (1 mes), Construção (Programação e Testes), Entrega (validação e termo de aceitação).
+
+algumas vantagens deste modelo: Organização (pois as atividades e suas sequencias são bem definidas, o que facilita a gestão); Documentação (tudo fica registrado);
+
+
+2o Modelo Prototipação: 
+   Os problemas do modelo cascata levaram à criação deste modelo, onde são criados protótipos durante todas as fases de desenvolviemento do projeto para que os requisitos sejam validados junto aos clientes. Este modelo apesar de ser inovador não deu muito certo, tendo em vista que estes protótipos são descartáveis, oque aumenta os custos do projeto.
+
+
+3o Modelo Desenvolvimento Incremental: 
+   Devido às mudanças de regras de negócios constantes, surge este modelo, que separa o desenvolvimento em componetes, os processos continuam os mesmos, mas a entrega é feita em partes, exemplo nos slides. Ainda assim, como em qualquer projeto de arq. de Software a documentação é necessária e imprescindivel.
+  
+  Vantagens: Adaptação, Identificação das novas necessidades, Modulariedade, Maior comunicação e Feedback por parte do cliente.
+
+  Problemas: Dificuldade para estimar o tamanho dos incrementos (geralmente associado à experiência e eficiência dos devs); Integração dos componentes.
+
+
+3o Modelo Integração e Configuração: 
+
+  Hoje a maioria dos componentes necessários em um projeto já existem disponiveis para reuso, oque é necessário fazer é interliga-los (API's).
+
+FASES --  
+Comunicação: Levantamento de requisitos; 
+Pesquisa: Descoberta de softwares (Pagamento, faturamento, restreamento...); Avaliação do Softwares (verificar com o forncedor a confiabilidade, credibilidade e segurança. Verificação da performance desses softwares); 
+Desenvolvimento: Refinamento dos requisitos (nessa etapa sabemos o que de fato iremos desenvolver e o que iremos integrar ao projeto)
+No caso de aplicações disponíveis: Configuração do sistema.
+No caso de componentes disponpiveis: Adaptação dos componentes e se necessário, criação de novos componentes
+
+
