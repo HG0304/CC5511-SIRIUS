@@ -177,6 +177,15 @@
         <mxCell id="AjXyIFemAKqOr5RNVAfn-16" value="NÃO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="324.51504699595716" y="401.87416260431087" as="geometry" />
         </mxCell>
+        <mxCell id="AjXyIFemAKqOr5RNVAfn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AjXyIFemAKqOr5RNVAfn-17" target="AjXyIFemAKqOr5RNVAfn-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="348" y="420" />
+              <mxPoint x="130" y="420" />
+              <mxPoint x="130" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="AjXyIFemAKqOr5RNVAfn-17" value="Número confirmado?" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="301.88" y="315" width="93.12" height="85" as="geometry" />
         </mxCell>
